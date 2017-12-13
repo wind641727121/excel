@@ -6,7 +6,7 @@ function uploadFile($file,$filetempname)
 	$filePath = 'upFile/';
 	$str = "";
 	//下面的路径按照你PHPExcel的路径来修改
-	set_include_path('.'. PATH_SEPARATOR .'E:\php\AppServ\www\91ctcStudy\PHPExcelImportSQl2\PHPExcel' . PATH_SEPARATOR .get_include_path()); 
+	set_include_path('.'. PATH_SEPARATOR .'.\PHPExcel' . PATH_SEPARATOR .get_include_path()); 
       
 	require_once 'PHPExcel.php';
 	require_once 'PHPExcel\IOFactory.php';
